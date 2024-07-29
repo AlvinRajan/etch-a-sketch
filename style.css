@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.contaner{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+    margin-top: 20px;
+}
