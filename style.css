@@ -8,14 +8,14 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 200px;
+    justify-content: space-around;
+    width: 400px;
     flex-direction: row;
     margin-bottom: 20px;
 }
 
-.contaner{
-    display: flex;
+.board{
+    display: grid;
     width: 500px;
     height: 500px;
     border: 1px solid black;
@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
     align-items: center;
     margin-top: 20px;
 }
